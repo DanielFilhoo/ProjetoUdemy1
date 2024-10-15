@@ -1,0 +1,87 @@
+html {
+    font-family: "Arial", sans-serif;
+    background-color: #111; /* Fundo preto */
+    color: #e0e0e0; /* Texto em cinza claro para contraste */
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #222; /* Fundo cinza escuro */
+    color: #e0e0e0; /* Texto em cinza claro */
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border: 2px solid #bb0a1e; /* Borda vermelha */
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 40px;
+    color: #bb0a1e; /* Vermelho para o título principal */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+.main-paragraph {
+    font-style: italic;
+    color: #e0e0e0; /* Texto em cinza claro */
+}
+
+/* Imagem Destaque */
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #bb0a1e; /* Borda vermelha ao redor da imagem */
+}
+
+/* Biografia */
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #bb0a1e; /* Bordas vermelhas pontilhadas */
+    border-bottom: 1px dashed #bb0a1e;
+    background-color: #333; /* Fundo cinza mais escuro */
+}
+
+/* Quotes ou citações */
+.quotes-container {
+    background-color: #444; /* Fundo cinza escuro */
+    padding: 30px;
+    color: #bb0a1e; /* Texto vermelho */
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase; /* Texto em maiúsculas */
+}
+
+.quotes-container p {
+    font-style: italic;
+    color: #e0e0e0; /* Texto em cinza claro */
+}
+
+/* Curiosidades */
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #bb0a1e; /* Bordas vermelhas pontilhadas */
+    border-bottom: 1px dashed #bb0a1e;
+    background-color: #333; /* Fundo cinza mais escuro */
+}
+
+.curiosities-container li {
+    height: 50px;
+    color: #e0e0e0; /* Texto em cinza claro */
+}
+
+/* Imagem Bold-logo da banda */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+    color: #bb0a1e; /* Vermelho para o texto destacado */
+}
